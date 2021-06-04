@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: "Roboto Light", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+.s1 {
+    /*height: 100%;*/
+    text-align: center;
+    padding: 5rem 10rem;
+    background: #B9DFD6;
+    /* font-family: Sail; */
+}
+
+.s1 h1 {
+    font-size: 4rem;
+    padding: 3rem 4rem;
+    font-family: 'Sail';
+    background: #fff;
+    display: inline-block;
+    color: #C4C4C4;
+    letter-spacing: 2rem;
+    border-radius: 2rem;
+}
+
+
+.s11 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.s111 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.s111 span {
+    font-size: 3rem;
+    font-family: 'Sail';
+}
+
+.s1111 {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.s1111:hover {
+    cursor: pointer;
+}
+
+.s1111 input{
+    background: #C4C4C4;
+    padding: 3rem 2rem;
+    height: 100%;
+    font-size: 2rem;
+    color: #000;
+    border-bottom-ra: 12rem;
+}
+
+.s1111 label {
+    font-size: 3rem;
+    background: #fff;
+    height: 100%;
+    /* width: 11%; */
+    padding: 1rem;
+    text-align: center;
+}
+
+.s112 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 6rem;
+}
+
+.s112 span {
+    font-size: 3rem;
+    font-family: 'Sail';
+}
+
+.s112 input {
+    background: #C4C4C4;
+    padding: 3rem 2rem;
+    height: 100%;
+    font-size: 2rem;
+    color: #000;
+}
+
+.s12{
+    display: flex;
+    /* align-items: center; */
+    gap: 3rem;
+    flex-wrap: wrap;
+    /* height: 70%; */
+    padding: 0 10rem;
+}
+
+.s121 {
+    display: flex;
+    gap: 2rem;
+    background: #fff;
+    /* height: 75%; */
+    padding: 3rem;
+    flex-wrap: wrap;
+    flex: 1 1 39rem;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.s122 {
+    flex: 1 1 30rem;
+    background: #fff;
+    /* display: block; */
+    padding: 2rem 3rem;
+    height: 40rem;
+    /* text-align: center; */
+}
+.s122 h4 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.s1221 {
+    display: inline-block;
+    width: 60%;
+    height: 60%;
+    /* text-align: center; */
+    background: #C4C4C4;
+    margin-bottom: 2rem;
+}
+
+.s122 a {
+    font-size: 2rem;
+    font-weight: 800;
+    background: #42B530;
+    padding: 1rem 5rem;
+    color: #fff;
+    display: inline-block;
+    border-radius: 2rem;
+}
