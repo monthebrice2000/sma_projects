@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: "Roboto Light", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.s1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgba(255,255,255,0.5);
+    display: flex;
+    gap: 2rem;
+    /* padding: 4rem 10rem; */
+    height: 63vh;
+    border: .1rem solid #C4C4C4;
+    box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 80%);
+    border-radius: 2rem;
+    min-width: 55%;
+}
+
+.s11 {
+    /* display: flex; */
+    /* padding: 9rem 5rem; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    background: #C4C4C4;
+    /* height: 100%; */
+    /* flex-wrap: wrap; */
+    flex: 1 1 15rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    position: relative;
+}
+
+.s111 {
+    position: absolute;
+    top: 15rem;
+    right: -5rem;
+}
+
+.s111 img {
+    border-radius: 50%;
+    width: 10rem;
+}
+
+.s11 p {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.s12 {
+    flex: 1 1 14rem;
+    padding: 5rem 3rem;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.s12 h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.s121 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #C4C4C4;
+    padding: 1rem;
+    border-radius: 5rem;
+    border: .1rem solid rgba(0,0,0,0.4);
+    box-shadow: 0rem 0.5rem 1rem #fff;
+}
+
+
+.s121 span {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 800;
+    width: 16rem;
+}
+
+.s2 {
+    padding: 2rem;
+    /* display: inline; */
+    background: rgba(255,255,255,0.9);
+    position: absolute;
+    width: 10rem;
+    top: 2rem;
+    left: 5rem;
+    border-radius: 4rem;
+    text-align: center;
+    box-shadow: 0 0.3rem 1.2rem rgb(255 255 255 / 70%);
+}
+
+
+.s21 img {
+    width: 5rem;
+    /* border: .2rem solid rgba(0,0,0,0.9); */
+    border-radius: 50%;
+    box-shadow: 0 0.2rem 1rem rgb(0 0 0 / 90%);
+}
